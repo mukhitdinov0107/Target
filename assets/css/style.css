@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -148,81 +149,91 @@ nav ul img{
 .submit:hover{
   opacity: 60%;
 }
-footer {
-  position: relative;
-  width: 100%;
-  min-height: 600px;
-  background-color: #00214a;
+.footer{
+  width: 100vw;
+  background-color: #00214A;
+  padding: 80px 150px 0px 150px;
+}
+.footer-contact-info{
   display: flex;
-  align-items: center;
+  justify-content: space-around;
+}
+.branches{
+  width: 45%;
+  display: flex;
   flex-direction: column;
-  padding: 50px;
-}
-.footer-item {
-  width: 70%;
-  height: 500px;
-  display: flex;
   align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  font-family: sans-serif;
   color: #fff;
-  font-family: "Schibsted Grotesk", sans-serif;
 }
-.footer-div {
-  width: 320px;
-  height: fit-content;
+.branch-items{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 30px;
+  color: #fff;
 }
-.footer-div:nth-child(1) {
-  font-size: 30px;
+.branch-map{
+  width: 100%;
+  margin-top: 60px;
+}
+.branches img{
+  width: 400px;
+  height: 300px;  
+}
+.tinchlik-branch{
+  margin-left: 30px;
+}
+.tinchlik-branch, .sergeli-branch{
   display: flex;
   align-items: center;
 }
-.footer-div:nth-child(5) {
-  height: 130px;
+.contacts{
+  width: 45%;
+  align-items: center;
+  justify-content: space-around;
 }
-.footer-div i {
+.contact-items{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-style: initial;
+}
+.contact-address{
+  margin-top: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-style: initial;
+}
+.contact-address h3{
+  font-size: 30px ;
+}
+.contacts h2{
+  font-size: 27px;
+  color: #fff;
+}
+.contacts h4{
   font-size: 20px;
-  margin: 0 20px 0 0;
-  color: #ff1100;
-}
-.footer-div h1 {
-  margin: 0 0 35px 0;
-  font-size: 25px;
-}
-.social-links {
-  display: flex;
-  margin: 95px 0 0 0;
-}
-.social-links div {
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #fff;
-  border-radius: 50%;
-  margin: 0 10px;
-  cursor: pointer;
-}
-.link i {
-  margin: 0;
-  color: #00214a;
-  font-size: 22px;
-}
-.location-img {
-  width: 500px;
-  height: 300px;
-}
-.copyright {
-  position: absolute;
-  bottom: 0;
-  width: 90%;
-  min-height: 60px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
   color: #fff;
-  border-top: 1px solid #334d6e;
+}
+.address-items{
+  display: flex;
+  margin-top: 45px;
+}
+.iconsforcon{
+  display: flex;
+  align-items: center;
+}
+.contact-social{
+  display: flex;
+  width: 45%;
+  justify-content: space-between;
+  margin-top: 50px;
 }
