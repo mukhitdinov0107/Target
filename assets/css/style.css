@@ -20,6 +20,7 @@ body {
   top: 0;
   background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  z-index: 100;
 }
 .nav ul {
   display: flex;
@@ -27,6 +28,9 @@ body {
   justify-content: space-around;
   align-items: center;
   font-size: 17px;
+}
+nav ul img{
+  cursor: pointer;
 }
 .nav ul a {
   text-decoration: none;
@@ -61,6 +65,83 @@ body {
   color: #b6b6bc;
   margin-top: 25px;
 }
+.contact {
+  width: 100%;
+  padding: 200px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-item {
+  width: 100%;
+  min-height: 400px;
+  padding: 50px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  font-family: "Schibsted Grotesk", sans-serif;
+}
+.contact-item-title {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.contact-item-title h1 {
+  font-size: 30px;
+  color: #00214a;
+}
+.contact-item-title p {
+  font-size: 18px;
+  color: #b6b6bc;
+}
+.contact-item-item {
+  width: 600px;
+  min-height: 170px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.agreement {
+  position: relative;
+  padding-left: 35px;
+  width: 270px;
+  height: 100px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  color: #00214a;
+  line-height: 150%;
+}
+.agreement input{
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 15px;
+  left: 13px;
+}
+.contact-item-input, .submit {
+  width: 270px;
+  min-height: 55px;
+  outline: none;
+  font-size: 17px;
+  border-radius: 30px;
+  margin: 15px;
+}
+.contact-item-input {
+  border: 1px solid #b6b6bc;
+  padding-left: 20px;
+  color: #b6b6bc;
+}
+.submit{
+  height: 55px;
+  background-color: #00214a;
+  color: #fff;
+}
 footer {
   position: relative;
   width: 100%;
@@ -83,12 +164,15 @@ footer {
 }
 .footer-div {
   width: 320px;
-  height: auto;
+  height: fit-content;
 }
 .footer-div:nth-child(1) {
   font-size: 30px;
   display: flex;
   align-items: center;
+}
+.footer-div:nth-child(5) {
+  height: 130px;
 }
 .footer-div i {
   font-size: 20px;
@@ -126,8 +210,8 @@ footer {
 .copyright {
   position: absolute;
   bottom: 0;
-  width: 100%;
-  min-height: 50px;
+  width: 90%;
+  min-height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
