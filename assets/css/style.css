@@ -72,6 +72,7 @@ nav ul img {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  padding: 50px 0;
 }
 .union-items {
   width: 500px;
@@ -94,6 +95,10 @@ nav ul img {
   font-size: 23px;
   cursor: pointer;
   color: #ff1100;
+}
+.union-items p {
+  font-size: 20px;
+  color: #b6b6bc;
 }
 .contact {
   width: 100%;
