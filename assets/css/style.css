@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Schibsted+Grotesk&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Schibsted Grotesk", sans-serif;
 }
 html,
 body {
@@ -30,7 +31,7 @@ body {
   align-items: center;
   font-size: 17px;
 }
-nav ul img{
+nav ul img {
   cursor: pointer;
 }
 .nav ul a {
@@ -52,19 +53,47 @@ nav ul img{
   padding-top: 215px;
 }
 .info h1 {
-  font-family: "Schibsted Grotesk", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
   color: #292929;
 }
 .info p {
-  font-family: "Schibsted Grotesk", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
   color: #b6b6bc;
   margin-top: 25px;
+}
+.union {
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.union-items {
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.item-title {
+  width: 100%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-title h1 {
+  font-size: 26px;
+}
+.item-title i {
+  font-size: 23px;
+  cursor: pointer;
+  color: #ff1100;
 }
 .contact {
   width: 100%;
@@ -83,7 +112,6 @@ nav ul img{
   align-items: center;
   justify-content: space-around;
   border-radius: 20px;
-  font-family: "Schibsted Grotesk", sans-serif;
 }
 .contact-item-title {
   width: 350px;
@@ -118,14 +146,15 @@ nav ul img{
   color: #00214a;
   line-height: 150%;
 }
-.agreement input{
+.agreement input {
   width: 15px;
   height: 15px;
   position: absolute;
   top: 15px;
   left: 13px;
 }
-.contact-item-input, .submit {
+.contact-item-input,
+.submit {
   width: 270px;
   min-height: 55px;
   outline: none;
@@ -138,27 +167,28 @@ nav ul img{
   padding-left: 20px;
   color: #b6b6bc;
 }
-.submit{
+.submit {
   height: 55px;
   background-color: #00214a;
   color: #fff;
   transition: all 0.3s ease;
   cursor: pointer;
   padding: 0;
+  border: none;
 }
-.submit:hover{
+.submit:hover {
   opacity: 60%;
 }
-.footer{
+.footer {
   width: 100vw;
-  background-color: #00214A;
+  background-color: #00214a;
   padding: 80px 150px 0px 150px;
 }
-.footer-contact-info{
+.footer-contact-info {
   display: flex;
   justify-content: space-around;
 }
-.branches{
+.branches {
   width: 45%;
   display: flex;
   flex-direction: column;
@@ -166,7 +196,7 @@ nav ul img{
   font-family: sans-serif;
   color: #fff;
 }
-.branch-items{
+.branch-items {
   width: 100%;
   display: flex;
   align-items: center;
@@ -176,34 +206,35 @@ nav ul img{
   line-height: 30px;
   color: #fff;
 }
-.branch-map{
+.branch-map {
   width: 100%;
   margin-top: 60px;
 }
-.branches img{
+.branches img {
   width: 400px;
-  height: 300px;  
+  height: 300px;
 }
-.tinchlik-branch{
+.tinchlik-branch {
   margin-left: 30px;
 }
-.tinchlik-branch, .sergeli-branch{
+.tinchlik-branch,
+.sergeli-branch {
   display: flex;
   align-items: center;
 }
-.contacts{
+.contacts {
   width: 45%;
   align-items: center;
   justify-content: space-around;
 }
-.contact-items{
+.contact-items {
   display: flex;
   align-items: center;
   justify-content: space-around;
   font-family: sans-serif;
   font-style: initial;
 }
-.contact-address{
+.contact-address {
   margin-top: 50px;
   color: #fff;
   display: flex;
@@ -212,26 +243,26 @@ nav ul img{
   font-family: sans-serif;
   font-style: initial;
 }
-.contact-address h3{
-  font-size: 30px ;
+.contact-address h3 {
+  font-size: 30px;
 }
-.contacts h2{
+.contacts h2 {
   font-size: 27px;
   color: #fff;
 }
-.contacts h4{
+.contacts h4 {
   font-size: 20px;
   color: #fff;
 }
-.address-items{
+.address-items {
   display: flex;
   margin-top: 45px;
 }
-.iconsforcon{
+.iconsforcon {
   display: flex;
   align-items: center;
 }
-.contact-social{
+.contact-social {
   display: flex;
   width: 45%;
   justify-content: space-between;
