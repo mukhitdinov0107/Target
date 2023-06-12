@@ -80,6 +80,7 @@ nav ul img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  border-bottom: 1px solid #CCD4D6;
 }
 .item-title {
   width: 100%;
@@ -99,6 +100,18 @@ nav ul img {
 .union-items p {
   font-size: 20px;
   color: #b6b6bc;
+}
+.aloqa-uchun {
+  text-align: center;
+}
+.aloqa-uchun h3 {
+  font-size: 24px;
+  color: #002930;
+}
+.aloqa-uchun h1 {
+  font-size: 44px;
+  color: #00214a;
+  margin-top: 10px;
 }
 .contact {
   width: 100%;
