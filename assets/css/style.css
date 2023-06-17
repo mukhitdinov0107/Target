@@ -65,6 +65,22 @@ nav ul img {
   color: #b6b6bc;
   margin-top: 25px;
 }
+.our-mission {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 0px;
+}
+.our-mission-title {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 50px 0;
+  color: #00214a;
+  font-size: 40px
+
+}
 .union {
   width: 100%;
   min-height: 800px;
@@ -80,7 +96,7 @@ nav ul img {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  border-bottom: 1px solid #CCD4D6;
+  border-bottom: 1px solid #ccd4d6;
 }
 .item-title {
   width: 100%;
