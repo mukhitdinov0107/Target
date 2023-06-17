@@ -85,9 +85,9 @@ nav ul img {
   color: #00214a;
   font-size: 40px;
 }
-.mission-img{
+.mission-img {
   width: 80%;
-  min-height: 80%
+  min-height: 80%;
 }
 
 /* union */
@@ -212,7 +212,7 @@ nav ul img {
   padding-left: 30px;
   color: #b6b6bc;
 }
-.contact-item-input:focus{
+.contact-item-input:focus {
   border: 1px solid #00214a;
 }
 .submit {
@@ -315,4 +315,9 @@ nav ul img {
   width: 45%;
   justify-content: space-between;
   margin-top: 50px;
+}
+@media (max-width: 425px) {
+  .mission-img{
+    width: 100%;
+  }
 }
